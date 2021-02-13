@@ -3,5 +3,43 @@ h1 {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(/assets/images/bg-mobile.svg);
+    background-repeat: no-repeat;
+}
+
+/* CABEÇALHO */
+.logotipo {
+    text-align: left;
+    margin: 30px 33px;
+}
+
+.logotipo img {
+    width: 130px;
+}
+
+
+/* IMAGEM FRONTAL */
+.front {
+    text-align: center;
+}
+
+.front-image {
+    margin: 30px 0px;
+    width: 300px;
+}
+
+
+
+/* FOOTER */
+ /* Feel free to remove these styles or customise in your own stylesheet 👍  */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
