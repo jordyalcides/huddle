@@ -6,6 +6,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.active-item {
+    transition: 0.3s all;
+}
+
 /* HEADER */
 .logotype {
     text-align: left;
@@ -53,23 +57,76 @@ body {
 .register-button {
     color: hsl(257, 40%, 49%);
     background-color: #ffffff;
-    border: solid #ffffff 1rem;
+    border: solid #ffffff 0.8rem;
     border-radius: 50px;
     font-family: 'Poppins', sans-serif;
     font-size: 0.7rem;
     font-weight: 300;
-    width: 200px;
-    margin: 20px 0;
+    margin: 12px 0;
+    padding: 1px 63px;
     box-shadow: 0px 3px 5px hsl(257, 40%, 33%);
+}
+
+.register-button:hover {
+    border-color: hsl(300, 69%, 71%);
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+}
+
+/* SOCIAL */
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0 0 0;
+}
+
+.facebook {
+    margin: 8px;
+    padding: 5px 8px;
+    border: solid #ffffff 0.1rem;
+    border-radius: 100px;
+}
+
+.facebook:hover {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+.twitter {
+    margin: 8px;
+    padding: 5px 5px;
+    border: solid #ffffff 0.1rem;
+    border-radius: 100px;
+}
+
+.twitter:hover {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
+.instagram {
+    margin: 8px;
+    padding: 5px 5px;
+    border: solid #ffffff 0.1rem;
+    border-radius: 100px;
+}
+
+.instagram:hover {
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
 }
 
 /* FOOTER */
  /* Feel free to remove these styles or customise in your own stylesheet 👍  */
 .attribution {
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
+    margin: 50px 0 0 0;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    /* color: hsl(228, 45%, 44%); */
+    color: hsl(300, 69%, 71%);
 }
