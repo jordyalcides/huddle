@@ -1,9 +1,5 @@
-h1 {
-    font-family: 'Poppins', sans-serif;
-}
 
 body {
-    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
     background-color: hsl(257, 40%, 49%);
     background-image: url(/assets/images/bg-mobile.svg);
@@ -11,12 +7,12 @@ body {
 }
 
 /* CABEÇALHO */
-.logotipo {
+.logotype {
     text-align: left;
     margin: 30px 33px;
 }
 
-.logotipo img {
+.logotype img {
     width: 130px;
 }
 
@@ -31,12 +27,28 @@ body {
     width: 300px;
 }
 
+/* TEXTO PRINCIPAL */
+.front-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    text-align: center;
+    margin: 5% 11%;
+}
 
+.front-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 11%;
+    line-height: 1.5rem;
+}
 
 /* FOOTER */
  /* Feel free to remove these styles or customise in your own stylesheet 👍  */
 .attribution {
-    font-size: 11px;
+    font-size: 8px;
     text-align: center;
 }
 
