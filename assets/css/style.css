@@ -92,40 +92,27 @@ body {
     margin: 3rem 0 0 0;
 }
 
-.facebook {
+.social-item {
     margin: 8px;
-    padding: 5px 8px;
     border: solid #ffffff 0.1rem;
     border-radius: 100px;
 }
 
-.facebook:hover {
+.social-item:hover {
     border-color: hsl(300, 69%, 71%);
     color: hsl(300, 69%, 71%);
+}
+
+.facebook {
+    padding: 5px 8px;
 }
 
 .twitter {
-    margin: 8px;
     padding: 5px 5px;
-    border: solid #ffffff 0.1rem;
-    border-radius: 100px;
-}
-
-.twitter:hover {
-    border-color: hsl(300, 69%, 71%);
-    color: hsl(300, 69%, 71%);
 }
 
 .instagram {
-    margin: 8px;
     padding: 5px 5px;
-    border: solid #ffffff 0.1rem;
-    border-radius: 100px;
-}
-
-.instagram:hover {
-    border-color: hsl(300, 69%, 71%);
-    color: hsl(300, 69%, 71%);
 }
 
 /* FOOTER */
@@ -172,8 +159,87 @@ body {
         margin: 2.5% 0;
     }
 
+    /* SOCIAL */
+    .social-item {
+        font-size: 1.3rem;
+    }
+    .facebook {
+        padding: 10px 13px;
+    }
+    .twitter {
+        padding: 10px 10px;
+    }
+    .instagram {
+        padding: 10px 10px;
+    }
+
     /* FOOTER */
     .attribution {
         margin: 5% 0 0 0;
+    }
+}
+
+@media(min-width: 1024px) {
+    body {
+        background-image: url(/assets/images/bg-desktop.svg);
+        /* background-size: contain; */
+    }
+
+    /* HEADER */
+    .logotype {
+        margin: 60px 5% 0;
+    }
+    .logotype img {
+        width: 200px;
+    }
+
+    /* MAIN */
+    .main{
+        margin: 5% 4%;
+    }
+
+    /* FRONT IMAGE */
+    .front {
+        text-align: left;
+        display: inline-block;
+        margin: 2% 1%;
+    }
+    .front-image {
+        width: 480px;
+    }
+
+    /* MAIN TEXT */
+    .main-text {
+        display: inline-block;
+        vertical-align: top;
+        width: calc(95% - 480px);
+        margin: 50px 1%;
+    }
+    .front-header {
+        display: inline-block;
+        text-align: left;
+        font-size: 2rem;
+        margin: 10px 0;
+    }
+    .front-text {
+        display: inline-block;
+        text-align: left;
+        margin: 10px 0;
+    }
+
+    /* REGISTER BUTTON */
+    .register {
+        text-align: left;
+    }
+
+    /* SOCIAL */
+    .social {
+        justify-content: flex-end;
+        margin: 6% 3% 1%;
+    }
+
+    /* FOOTER */
+    .attribution {
+        margin: 10px 0;
     }
 }
