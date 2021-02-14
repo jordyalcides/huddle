@@ -4,6 +4,8 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(/assets/images/bg-mobile.svg);
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .active-item {
