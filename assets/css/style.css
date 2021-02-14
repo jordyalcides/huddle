@@ -4,8 +4,7 @@ body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(/assets/images/bg-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-position: top;
 }
 
 .active-item {
@@ -15,39 +14,48 @@ body {
 /* HEADER */
 .logotype {
     text-align: left;
-    margin: 30px 33px;
+    margin: 8% 5% 5%;
 }
 
 .logotype img {
-    width: 130px;
+    width: 150px;
 }
 
+/* MAIN */
+.main {
+    display: inline-block;
+    margin: 3% 0;
+}
 
 /* FRONT IMAGE */
 .front {
     text-align: center;
+    margin: 5% 0;
 }
 
 .front-image {
-    margin: 30px 0px;
     width: 300px;
 }
 
 /* MAIN TEXT */
+.main-text{
+    margin: 6% 11% 2%;
+}
+
 .front-header {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     line-height: 2.3rem;
     text-align: center;
-    margin: 5% 11%;
+    margin: 1.5% 0;
 }
 
 .front-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     text-align: center;
-    margin: 10px 11%;
+    margin: 1.5% 0;
     line-height: 1.5rem;
 }
 
@@ -131,4 +139,41 @@ body {
 .attribution a {
     /* color: hsl(228, 45%, 44%); */
     color: hsl(300, 69%, 71%);
+}
+
+@media(min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    /* HEADER */
+    .logotype img {
+        width: 180px;
+    }
+
+    /* FRONT IMAGE */
+    .front-image {
+        width: 500px;
+    }
+
+    /* MAIN TEXT */
+    .main-text{
+        margin: 6% 0 2%;
+    }
+    .front-header {
+        font-size: 2rem;
+    }
+    .front-text {
+        margin: 1.5% 20%;
+    }
+
+    /* REGISTER BUTTON */
+    .register {
+        margin: 2.5% 0;
+    }
+
+    /* FOOTER */
+    .attribution {
+        margin: 5% 0 0 0;
+    }
 }
