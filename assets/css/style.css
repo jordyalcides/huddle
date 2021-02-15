@@ -182,7 +182,7 @@ body {
 @media(min-width: 1024px) {
     body {
         background-image: url(/assets/images/bg-desktop.svg);
-        /* background-size: contain; */
+        background-size: contain;
     }
 
     /* HEADER */
@@ -241,5 +241,58 @@ body {
     /* FOOTER */
     .attribution {
         margin: 10px 0;
+    }
+}
+
+@media(min-width: 1440px) {
+    /* HEADER */
+    .logotype {
+        margin: 40px 3% 0;
+    }
+    .logotype img {
+        width: 220px;
+    }
+
+    /* MAIN */
+    .main{
+        margin: 1% 2%;
+    }
+    
+    /* FRONT IMAGE */
+    .front-image {
+        width: 780px;
+    }
+
+    /* MAIN TEXT */
+    .main-text {
+        width: calc(95% - 780px);
+        margin: 80px 1%;
+    }
+    .front-header {
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+        margin: 10px 0;
+    }
+    .front-text {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    /* REGISTER BUTTON */
+    .register-button {
+        font-size: 1.1rem;
+        padding: 5px 45px;
+        box-shadow: 0px 5px 15px hsl(257, 40%, 27%);
+    }
+
+    /* SOCIAL */
+     .social {
+        margin: 0 3%;
+    }
+
+    /* FOOTER */
+    .attribution {
+        margin: 0 0;
+        padding: 3px 0;
     }
 }
