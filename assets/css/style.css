@@ -124,7 +124,6 @@ body {
 }
 
 .attribution a {
-    /* color: hsl(228, 45%, 44%); */
     color: hsl(300, 69%, 71%);
 }
 
@@ -187,7 +186,7 @@ body {
 
     /* HEADER */
     .logotype {
-        margin: 60px 5% 0;
+        margin: 30px 4% 0;
     }
     .logotype img {
         width: 200px;
@@ -195,7 +194,7 @@ body {
 
     /* MAIN */
     .main{
-        margin: 5% 4%;
+        margin: 1% 2%;
     }
 
     /* FRONT IMAGE */
@@ -219,6 +218,7 @@ body {
         display: inline-block;
         text-align: left;
         font-size: 2rem;
+        line-height: 3rem;
         margin: 10px 0;
     }
     .front-text {
@@ -231,16 +231,22 @@ body {
     .register {
         text-align: left;
     }
-
+    .register-button {
+        font-size: 1.1rem;
+        padding: 5px 45px;
+        box-shadow: 0px 5px 15px hsl(257, 40%, 27%);
+    }
+    
     /* SOCIAL */
     .social {
         justify-content: flex-end;
-        margin: 6% 3% 1%;
+        margin: 0 3%;
     }
 
     /* FOOTER */
     .attribution {
-        margin: 10px 0;
+        margin: 0;
+        padding: 3px 0;
     }
 }
 
@@ -251,11 +257,6 @@ body {
     }
     .logotype img {
         width: 220px;
-    }
-
-    /* MAIN */
-    .main{
-        margin: 1% 2%;
     }
     
     /* FRONT IMAGE */
@@ -278,21 +279,4 @@ body {
         margin: 10px 0;
     }
 
-    /* REGISTER BUTTON */
-    .register-button {
-        font-size: 1.1rem;
-        padding: 5px 45px;
-        box-shadow: 0px 5px 15px hsl(257, 40%, 27%);
-    }
-
-    /* SOCIAL */
-     .social {
-        margin: 0 3%;
-    }
-
-    /* FOOTER */
-    .attribution {
-        margin: 0 0;
-        padding: 3px 0;
-    }
 }
